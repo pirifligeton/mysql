@@ -1,0 +1,4 @@
+git status --> review the status of the workspace
+git add . --> allow add all the files
+git commit -m "first trip" --> Allow me to track a name to the status
+git push origin main --> Allow me upload the files to Github
