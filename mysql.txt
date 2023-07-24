@@ -1,0 +1,27 @@
+Se trabajara en lienas de comando "CLI"
+
+Lo primero que haremos es intalar MYSQL, y ubucaremos su ruta
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin
+
+unaves ubicado para poder ingresar a las lineas de comando "CLI" se por terminal o por cmder
+
+el ingreso ala servidor es el siguiente comando:
+
+mysql -h localhost -u root -p
+una ves ingresando pones la clavbe de tu servidor
+
+
+Comandos:
+-->mysql -h 192.168.1.175 -u Arch_Nova -p --> conexcion remota
+--> mysql -l localhost -u root -p //Imgreso al mysql
+--> system cls; --> limpiar mantalla en my MySQL
+--> \! cls; --> Limpia pantalla
+--> show databases; --> muestra las base de datos de MYSQL
+--> use escuela; --> permite usar la base de datos que desees
+--> show tables; --> muestas las tablas de escuela
+--> describe alumno; --> muestra una descripcion de la tablas de alumno
+--> select user from mysql.user; --> ver los usarios
+--> show procedure status like 'ActualizarStock'\G; --> Ver la exixtencia de un prodedimiento almacenado
+--> mysqlsh -->Activa el modos mysql shell que trabaja con python y javascript
+-->actualizar
